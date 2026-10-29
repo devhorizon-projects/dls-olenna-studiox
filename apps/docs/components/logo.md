@@ -67,6 +67,17 @@ Monogram icon for circular avatars, favicons, and mobile tab bars.
 <Logo variant="emblem" size="md" />
 ```
 
+### Inline Vector SVG Rendering (Zero External Files)
+Renders crisp, resolution-independent vector SVG directly into the DOM without external file network requests.
+
+```tsx
+// Standard Light Theme Vector
+<Logo variant="horizontal" size="md" as="svg" href="/" />
+
+// Inverted Champagne Vector for Dark Plum Headers
+<Logo variant="horizontal" size="sm" as="svg" theme="dark" priority />
+```
+
 ---
 
 ## Sizes
@@ -84,6 +95,8 @@ Monogram icon for circular avatars, favicons, and mobile tab bars.
 | Prop | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
 | `variant` | `'horizontal' \| 'stacked' \| 'wordmark' \| 'emblem'` | `'horizontal'` | Visual lockup variant |
+| `as` | `'image' \| 'svg'` | `'image'` | Render as inline vector SVG (`'svg'`) or raster image (`'image'`) |
+| `theme` | `'light' \| 'dark'` | `'light'` | Color theme for mark: `'light'` (plum on ivory) or `'dark'` (champagne/ivory on plum) |
 | `size` | `'sm' \| 'md' \| 'lg'` | `'md'` | Scaled size category |
 | `withTagline` | `boolean` | `false` | Displays the brand tagline "Everyday elegance, thoughtfully curated." |
 | `priority` | `boolean` | `false` | Disables lazy loading for above-the-fold hero rendering |

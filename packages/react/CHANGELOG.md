@@ -1,5 +1,18 @@
 # @olenna/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Enhanced `<Logo />` with inline vector SVG rendering (`as="svg"`), theme-aware styling (`theme="light" | "dark"`), and updated master vector graphics.
+- Light luxury theme enforced with WCAG 2.2 AA compliant contrast.
+
+## 2.1.0
+
+### Minor Changes
+
+- Disabled dark mode and enforced pure light luxury theme tokens across components.
+
 ## 2.0.0
 
 ### Major Changes

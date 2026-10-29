@@ -1,5 +1,18 @@
 # @olenna/tokens
 
+## 2.2.0
+
+### Minor Changes
+
+- Added master color tokens: `color.brand.plum.announcement` (`#6B4B5E`), `color.brand.surface.footer` (`#FAF3F0`), and `color.brand.surface.tint` (`#F6E6ED`).
+- Added semantic surface mappings: `surface.footer` and `surface.tint`.
+
+## 2.1.0
+
+### Minor Changes
+
+- Disabled dark mode across all selectors, forcing light mode tokens globally.
+
 ## 2.0.0
 
 ### Major Changes
