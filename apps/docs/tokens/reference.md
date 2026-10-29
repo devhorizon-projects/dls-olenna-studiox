@@ -6,27 +6,29 @@ This document is automatically generated from `@olenna/tokens/src/source/`.
 
 | Semantic Token | CSS Variable | Light Value | Description |
 | :--- | :--- | :--- | :--- |
-| `color-text-primary` | `--olenna-color-text-primary` | `#493541` | Primary editorial text |
-| `color-text-secondary` | `--olenna-color-text-secondary` | `#5C4C56` | Secondary copy and labels |
-| `color-text-muted` | `--olenna-color-text-muted` | `#8E7A87` | Subtle timestamps and auxiliary details |
+| `color-text-primary` | `--olenna-color-text-primary` | `#261C22` | Primary editorial brand text (#261C22) from Olenna Web |
+| `color-text-secondary` | `--olenna-color-text-secondary` | `#5C4C56` | Secondary copy and labels (#5C4C56) |
+| `color-text-muted` | `--olenna-color-text-muted` | `#8E7A87` | Subtle timestamps and auxiliary details (#8E7A87) |
 | `color-text-inverse` | `--olenna-color-text-inverse` | `#FFFAF7` | Text on dark or plum backgrounds |
 | `color-surface-page` | `--olenna-color-surface-page` | `#FFFAF7` | Global page canvas |
 | `color-surface-card` | `--olenna-color-surface-card` | `#FFFFFF` | Default card and container background |
 | `color-surface-elevated` | `--olenna-color-surface-elevated` | `#FFFFFF` | Floating dialog and dropdown surface |
 | `color-surface-subtle` | `--olenna-color-surface-subtle` | `#FAF5F2` | Subtle background wash |
 | `color-surface-accent` | `--olenna-color-surface-accent` | `#F5E3EA` | Blush highlight surface |
-| `color-border-default` | `--olenna-color-border-default` | `#E8E2DF` | Standard border for cards and inputs |
-| `color-border-strong` | `--olenna-color-border-strong` | `#B5A59E` | High contrast border |
-| `color-border-subtle` | `--olenna-color-border-subtle` | `#F4F0EE` | Subtle table row and list divider |
+| `color-surface-footer` | `--olenna-color-surface-footer` | `#FAF3F0` | Warm ivory footer background from Olenna Web (#FAF3F0) |
+| `color-surface-tint` | `--olenna-color-surface-tint` | `#F6E6ED` | Subtle blush category and promo card wash from Olenna Web (#F6E6ED) |
+| `color-border-default` | `--olenna-color-border-default` | `rgba(73, 53, 65, 0.12)` | Standard border with subtle plum tint matching Olenna Web |
+| `color-border-strong` | `--olenna-color-border-strong` | `rgba(73, 53, 65, 0.25)` | High contrast plum border |
+| `color-border-subtle` | `--olenna-color-border-subtle` | `rgba(73, 53, 65, 0.06)` | Subtle table row and list divider |
 | `color-border-accent` | `--olenna-color-border-accent` | `#DFC7B0` | Champagne metallic framing border |
-| `color-action-primary-default` | `--olenna-color-action-primary-default` | `#493541` | Primary action button fill |
-| `color-action-primary-hover` | `--olenna-color-action-primary-hover` | `#593D4E` | Primary action button hover |
-| `color-action-primary-active` | `--olenna-color-action-primary-active` | `#33232D` | Primary action button pressed |
-| `color-action-primary-text` | `--olenna-color-action-primary-text` | `#FFFAF7` | Primary action button text |
-| `color-action-secondary-default` | `--olenna-color-action-secondary-default` | `#C4A181` | Secondary button fill or border |
-| `color-action-secondary-hover` | `--olenna-color-action-secondary-hover` | `#9E7958` | Secondary button hover |
-| `color-action-secondary-text` | `--olenna-color-action-secondary-text` | `#493541` | Secondary button text |
-| `color-action-tertiary-hover` | `--olenna-color-action-tertiary-hover` | `#F5E3EA` | Ghost button hover background |
+| `color-action-primary-default` | `--olenna-color-action-primary-default` | `#493541` | Primary action button fill (#493541) |
+| `color-action-primary-hover` | `--olenna-color-action-primary-hover` | `#33232D` | Primary action button hover (#33232D) |
+| `color-action-primary-active` | `--olenna-color-action-primary-active` | `#33232D` | Primary action button pressed (#33232D) |
+| `color-action-primary-text` | `--olenna-color-action-primary-text` | `#FFFFFF` | Primary action button text |
+| `color-action-secondary-default` | `--olenna-color-action-secondary-default` | `#DCC5D8` | Secondary button fill (#DCC5D8) matching Olenna Web |
+| `color-action-secondary-hover` | `--olenna-color-action-secondary-hover` | `#C5A5BF` | Secondary button hover (#C5A5BF) |
+| `color-action-secondary-text` | `--olenna-color-action-secondary-text` | `#33232D` | Secondary button text (#33232D) |
+| `color-action-tertiary-hover` | `--olenna-color-action-tertiary-hover` | `rgba(73, 53, 65, 0.05)` | Ghost button hover background |
 | `color-action-destructive-default` | `--olenna-color-action-destructive-default` | `#DC2626` | Destructive action fill |
 | `color-action-destructive-hover` | `--olenna-color-action-destructive-hover` | `#B91C1C` | Destructive action hover |
 | `color-action-destructive-text` | `--olenna-color-action-destructive-text` | `#FFFFFF` | Destructive action text |
@@ -73,9 +75,15 @@ This document is automatically generated from `@olenna/tokens/src/source/`.
 | `color-brand-plum-800` | `--olenna-color-brand-plum-800` | `#593D4E` | Hover deep plum action |
 | `color-brand-plum-900` | `--olenna-color-brand-plum-900` | `#493541` | Signature deep plum brand color |
 | `color-brand-plum-950` | `--olenna-color-brand-plum-950` | `#33232D` | Deepest midnight plum |
+| `color-brand-plum-announcement` | `--olenna-color-brand-plum-announcement` | `#6B4B5E` | Announcement bar plum fill from Olenna Web |
+| `color-brand-surface-footer` | `--olenna-color-brand-surface-footer` | `#FAF3F0` | Warm ivory footer background from Olenna Web |
+| `color-brand-surface-tint` | `--olenna-color-brand-surface-tint` | `#F6E6ED` | Subtle blush category and promo card wash from Olenna Web |
 | `color-brand-roseMauve-400` | `--olenna-color-brand-roseMauve-400` | `#BD849C` | Bright rose mauve |
 | `color-brand-roseMauve-500` | `--olenna-color-brand-roseMauve-500` | `#A66B83` | Signature rose mauve interactive |
 | `color-brand-roseMauve-600` | `--olenna-color-brand-roseMauve-600` | `#8F546E` | Deep rose mauve active state |
+| `color-brand-text-primary` | `--olenna-color-brand-text-primary` | `#261C22` | Master Olenna brand text primary (#261C22) from Olenna Web |
+| `color-brand-text-secondary` | `--olenna-color-brand-text-secondary` | `#5C4C56` | Secondary brand text (#5C4C56) |
+| `color-brand-text-muted` | `--olenna-color-brand-text-muted` | `#8E7A87` | Muted brand text (#8E7A87) |
 
 ## Spacing Scale Primitives
 
@@ -101,9 +109,9 @@ This document is automatically generated from `@olenna/tokens/src/source/`.
 | `spacing-80` | `--olenna-spacing-80` | `20rem` |
 | `spacing-96` | `--olenna-spacing-96` | `24rem` |
 | `spacing-px` | `--olenna-spacing-px` | `1px` |
-| `spacing-0.5` | `--olenna-spacing-0.5` | `0.125rem` |
-| `spacing-1.5` | `--olenna-spacing-1.5` | `0.375rem` |
-| `spacing-2.5` | `--olenna-spacing-2.5` | `0.625rem` |
+| `spacing-0_5` | `--olenna-spacing-0_5` | `0.125rem` |
+| `spacing-1_5` | `--olenna-spacing-1_5` | `0.375rem` |
+| `spacing-2_5` | `--olenna-spacing-2_5` | `0.625rem` |
 
 ## Typography Primitives
 

@@ -49,6 +49,16 @@
           "value": "{color.brand.blush.100}",
           "type": "color",
           "description": "Blush highlight surface"
+        },
+        "footer": {
+          "value": "{color.brand.surface.footer}",
+          "type": "color",
+          "description": "Warm ivory footer background from Olenna Web (#FAF3F0)"
+        },
+        "tint": {
+          "value": "{color.brand.surface.tint}",
+          "type": "color",
+          "description": "Subtle blush category and promo card wash from Olenna Web (#F6E6ED)"
         }
       },
       "border": {
@@ -283,6 +293,16 @@
           "value": "{color.brand.blush.100}",
           "type": "color",
           "description": "Blush highlight surface"
+        },
+        "footer": {
+          "value": "{color.brand.surface.footer}",
+          "type": "color",
+          "description": "Warm ivory footer background from Olenna Web (#FAF3F0)"
+        },
+        "tint": {
+          "value": "{color.brand.surface.tint}",
+          "type": "color",
+          "description": "Subtle blush category and promo card wash from Olenna Web (#F6E6ED)"
         }
       },
       "border": {

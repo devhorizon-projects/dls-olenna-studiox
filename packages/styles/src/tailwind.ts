@@ -55,6 +55,8 @@ export const olennaTailwindPreset = {
             elevated: 'var(--olenna-color-surface-elevated)',
             subtle: 'var(--olenna-color-surface-subtle)',
             accent: 'var(--olenna-color-surface-accent)',
+            footer: 'var(--olenna-color-surface-footer, #FAF3F0)',
+            tint: 'var(--olenna-color-surface-tint, #F6E6ED)',
           },
           border: {
             default: 'var(--olenna-color-border-default)',
@@ -100,6 +102,7 @@ export const olennaTailwindPreset = {
             800: 'var(--olenna-color-brand-plum-800, #593D4E)',
             900: 'var(--olenna-color-brand-plum-900, #493541)',
             950: 'var(--olenna-color-brand-plum-950, #33232D)',
+            announcement: 'var(--olenna-color-brand-plum-announcement, #6B4B5E)',
           },
           roseMauve: {
             400: 'var(--olenna-color-brand-roseMauve-400, #BD849C)',

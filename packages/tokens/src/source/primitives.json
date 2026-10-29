@@ -30,7 +30,12 @@
         "700": { "value": "#6D4C5E", "type": "color", "description": "Secondary deep plum" },
         "800": { "value": "#593D4E", "type": "color", "description": "Hover deep plum action" },
         "900": { "value": "#493541", "type": "color", "description": "Signature deep plum brand color" },
-        "950": { "value": "#33232D", "type": "color", "description": "Deepest midnight plum" }
+        "950": { "value": "#33232D", "type": "color", "description": "Deepest midnight plum" },
+        "announcement": { "value": "#6B4B5E", "type": "color", "description": "Announcement bar plum fill from Olenna Web" }
+      },
+      "surface": {
+        "footer": { "value": "#FAF3F0", "type": "color", "description": "Warm ivory footer background from Olenna Web" },
+        "tint": { "value": "#F6E6ED", "type": "color", "description": "Subtle blush category and promo card wash from Olenna Web" }
       },
       "roseMauve": {
         "400": { "value": "#BD849C", "type": "color", "description": "Bright rose mauve" },

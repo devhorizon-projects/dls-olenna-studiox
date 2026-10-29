@@ -11,16 +11,56 @@ The Olenna color palette is engineered for warmth, quiet luxury, and strict acce
 | **Brand Text Muted** | `#8E7A87` | `--olenna-color-brand-text-muted` | Timestamps, auxiliary legal notes, and decorative captions |
 | **Primary Canvas Background** | `#FFFAF7` | `--olenna-color-brand-ivory-50` | Signature warm ivory canvas background across storefront and PWA |
 | **Subtle Card Background** | `#FAF5F2` | `--olenna-color-brand-ivory-100` | Warm ivory container fill and card surface |
+| **Subtle Footer Background** | `#FAF3F0` | `--olenna-color-surface-footer` | Authentic footer surface across Olenna Web |
+| **Announcement Bar Plum** | `#6B4B5E` | `--olenna-color-brand-plum-announcement` | Top announcement bar notification fill |
+| **Delicate Card Tint** | `#F6E6ED` | `--olenna-color-surface-tint` | Category card & promotional gift banner wash |
 
 ---
 
-## Brand Primitives Palette
+## Brand Primitives Palette (Olenna Web Master Colors)
+
+### Warm Ivory Canvas Scale
+| Token | Hex | Role in Storefront |
+| :--- | :--- | :--- |
+| `ivory-50` | `#FFFAF7` | Master page canvas background |
+| `ivory-100` | `#FAF5F2` | Card container background |
+| `ivory-200` | `#F5EFEA` | Panel wash & light dividers |
+
+### Signature Blush Pink Scale
+| Token | Hex | Role in Storefront |
+| :--- | :--- | :--- |
+| `blush-50` | `#FAF1F4` | Ultra light hero & card highlight |
+| `blush-100` | `#F5E3EA` | Highlight accent & active pill tag |
+| `blush-200` | `#EED5E0` | Medium blush pink tint |
+
+### Soft Mauve Scale
+| Token | Hex | Role in Storefront |
+| :--- | :--- | :--- |
+| `mauve-100` | `#EFE4EC` | Soft mauve background wash |
+| `mauve-200` | `#DCC5D8` | Secondary button fill & pill background |
+| `mauve-400` | `#C5A5BF` | Secondary button hover & decorative accent |
+
+### Metallic Champagne Scale
+| Token | Hex | Role in Storefront |
+| :--- | :--- | :--- |
+| `champagne-100` | `#F2E8DE` | Soft metallic tint |
+| `champagne-200` | `#DFC7B0` | Accent borders & badge framing |
+| `champagne-400` | `#C4A181` | Metallic gold emblem trim |
+| `champagne-600` | `#9E7958` | Antique champagne bronze badges |
+
+### Deep Plum Brand Scale
+| Token | Hex | Role in Storefront |
+| :--- | :--- | :--- |
+| `plum-700` | `#6D4C5E` | Secondary deep plum |
+| `plum-800` | `#593D4E` | Subdued plum tone |
+| `plum-900` | `#493541` | Signature primary button & focus ring |
+| `plum-950` | `#33232D` | Primary button hover & highest dark contrast |
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
   <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(73, 53, 65, 0.12); background: #FFFFFF;">
     <div style="height: 80px; background: #261C22;"></div>
     <div style="padding: 0.75rem;">
-      <strong style="color: #261C22;">Brand Charcoal</strong><br/>
+      <strong style="color: #261C22;">Brand Charcoal Primary</strong><br/>
       <code style="font-size: 0.75rem;">#261C22</code>
       <p style="margin: 0.25rem 0 0 0; font-size: 0.75rem; color: #5C4C56;">Primary Editorial Text</p>
     </div>
@@ -54,6 +94,15 @@ The Olenna color palette is engineered for warmth, quiet luxury, and strict acce
   </div>
 
   <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(73, 53, 65, 0.12); background: #FFFFFF;">
+    <div style="height: 80px; background: #FAF3F0; border-bottom: 1px solid rgba(73, 53, 65, 0.12);"></div>
+    <div style="padding: 0.75rem;">
+      <strong>Footer Ivory</strong><br/>
+      <code style="font-size: 0.75rem;">#FAF3F0</code>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.75rem; color: #5C4C56;">Subtle Footer Surface</p>
+    </div>
+  </div>
+
+  <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(73, 53, 65, 0.12); background: #FFFFFF;">
     <div style="height: 80px; background: #F5E3EA;"></div>
     <div style="padding: 0.75rem;">
       <strong>Blush Pink 100</strong><br/>
@@ -72,6 +121,15 @@ The Olenna color palette is engineered for warmth, quiet luxury, and strict acce
   </div>
 
   <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(73, 53, 65, 0.12); background: #FFFFFF;">
+    <div style="height: 80px; background: #C5A5BF;"></div>
+    <div style="padding: 0.75rem;">
+      <strong>Soft Mauve 400</strong><br/>
+      <code style="font-size: 0.75rem;">#C5A5BF</code>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.75rem; color: #5C4C56;">Secondary Button Hover</p>
+    </div>
+  </div>
+
+  <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(73, 53, 65, 0.12); background: #FFFFFF;">
     <div style="height: 80px; background: #C4A181;"></div>
     <div style="padding: 0.75rem;">
       <strong>Champagne 400</strong><br/>
@@ -81,11 +139,11 @@ The Olenna color palette is engineered for warmth, quiet luxury, and strict acce
   </div>
 
   <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(73, 53, 65, 0.12); background: #FFFFFF;">
-    <div style="height: 80px; background: #A66B83;"></div>
+    <div style="height: 80px; background: #6B4B5E;"></div>
     <div style="padding: 0.75rem;">
-      <strong>Rose Mauve 500</strong><br/>
-      <code style="font-size: 0.75rem;">#A66B83</code>
-      <p style="margin: 0.25rem 0 0 0; font-size: 0.75rem; color: #5C4C56;">Interactive Link Color</p>
+      <strong style="color: #6B4B5E;">Announcement Plum</strong><br/>
+      <code style="font-size: 0.75rem;">#6B4B5E</code>
+      <p style="margin: 0.25rem 0 0 0; font-size: 0.75rem; color: #5C4C56;">Announcement Bar Fill</p>
     </div>
   </div>
 </div>

@@ -205,8 +205,25 @@ describe('@olenna/react Components', () => {
   });
 
   describe('Logo', () => {
-    it('renders authentic Olenna image variant', () => {
+    it('renders authentic Olenna logo image matching website defaults', () => {
       render(<Logo variant="horizontal" size="md" />);
+      const logo = screen.getByRole('img', { name: /olenna/i });
+      expect(logo).toBeInTheDocument();
+      expect(logo).toHaveAttribute('src', '/images/logo/olenna-horizontal.webp');
+      expect(logo).toHaveAttribute('width', '180');
+      expect(logo).toHaveAttribute('height', '40');
+    });
+
+    it('renders vector SVG directly when as="svg"', () => {
+      render(<Logo variant="horizontal" size="md" as="svg" />);
+      const logo = screen.getByRole('img', { name: /olenna/i });
+      expect(logo).toBeInTheDocument();
+      expect(logo).toHaveAttribute('width', '180');
+      expect(logo).toHaveAttribute('height', '40');
+    });
+
+    it('supports custom src image fallback', () => {
+      render(<Logo variant="horizontal" size="md" src="/images/logo/olenna-horizontal.webp" />);
       const img = screen.getByRole('img', { name: /olenna/i });
       expect(img).toBeInTheDocument();
       expect(img).toHaveAttribute('src', '/images/logo/olenna-horizontal.webp');

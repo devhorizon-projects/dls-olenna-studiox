@@ -20,10 +20,10 @@ Text tokens define contrast-certified hierarchy across page titles, subtitles, b
 
 | Token | CSS Variable | Light Mode | Dark Mode | Role |
 | :--- | :--- | :--- | :--- | :--- |
-| `color-text-primary` | `--olenna-color-text-primary` | `#261C22` | `#FFFAF7` | Headings & primary body copy |
-| `color-text-secondary` | `--olenna-color-text-secondary` | `#5C4C56` | `#DFC7B0` | Auxiliary copy & descriptions |
-| `color-text-muted` | `--olenna-color-text-muted` | `#8E7A87` | `#A893A1` | Inactive captions & timestamps |
-| `color-text-inverse` | `--olenna-color-text-inverse` | `#FFFAF7` | `#211B17` | Text over high-contrast fills |
+| `color-text-primary` | `--olenna-color-text-primary` | `#261C22` | `#261C22` | Master editorial headings & primary body copy |
+| `color-text-secondary` | `--olenna-color-text-secondary` | `#5C4C56` | `#5C4C56` | Auxiliary copy & descriptions |
+| `color-text-muted` | `--olenna-color-text-muted` | `#8E7A87` | `#8E7A87` | Inactive captions & timestamps |
+| `color-text-inverse` | `--olenna-color-text-inverse` | `#FFFAF7` | `#FFFAF7` | Text over high-contrast fills |
 
 ---
 
@@ -35,10 +35,13 @@ Surface tokens govern layered backgrounds, containers, cards, and modal dialogs.
 
 | Token | CSS Variable | Light Mode | Dark Mode | Role |
 | :--- | :--- | :--- | :--- | :--- |
-| `color-surface-page` | `--olenna-color-surface-page` | `#FFFAF7` | `#1C1419` | Global canvas backdrop |
-| `color-surface-card` | `--olenna-color-surface-card` | `#FFFFFF` | `#271C23` | Default card & container fill |
-| `color-surface-elevated`| `--olenna-color-surface-elevated` | `#FFFFFF` | `#34262F` | Modals, drawers, and menus |
-| `color-surface-subtle` | `--olenna-color-surface-subtle` | `#FAF5F2` | `#21171E` | Table row alternate, empty states |
+| `color-surface-page` | `--olenna-color-surface-page` | `#FFFAF7` | `#FFFAF7` | Global canvas backdrop |
+| `color-surface-card` | `--olenna-color-surface-card` | `#FFFFFF` | `#FFFFFF` | Default card & container fill |
+| `color-surface-elevated`| `--olenna-color-surface-elevated` | `#FFFFFF` | `#FFFFFF` | Modals, drawers, and menus |
+| `color-surface-subtle` | `--olenna-color-surface-subtle` | `#FAF5F2` | `#FAF5F2` | Table row alternate, empty states |
+| `color-surface-accent` | `--olenna-color-surface-accent` | `#F5E3EA` | `#F5E3EA` | Blush highlight surface |
+| `color-surface-footer` | `--olenna-color-surface-footer` | `#FAF3F0` | `#FAF3F0` | Warm ivory footer background |
+| `color-surface-tint` | `--olenna-color-surface-tint` | `#F6E6ED` | `#F6E6ED` | Delicate blush category card & promo wash |
 
 ---
 
@@ -50,8 +53,10 @@ Action tokens power primary calls to action, secondary controls, hover highlight
 
 | Token | CSS Variable | Light Mode | Dark Mode | Role |
 | :--- | :--- | :--- | :--- | :--- |
-| `color-action-primary-default` | `--olenna-color-action-primary-default` | `#493541` | `#C4A181` | Primary CTA button background |
-| `color-action-primary-hover` | `--olenna-color-action-primary-hover` | `#593D4E` | `#DFC7B0` | Primary CTA hover state |
-| `color-action-primary-text` | `--olenna-color-action-primary-text` | `#FFFAF7` | `#211B17` | Text on primary CTA |
-| `color-action-secondary-default` | `--olenna-color-action-secondary-default`| `#C4A181` | `#CFB0CA` | Secondary CTA accent |
-| `color-focus-ring` | `--olenna-color-focus-ring` | `#493541` | `#C4A181` | Accessible focus ring indicator |
+| `color-action-primary-default` | `--olenna-color-action-primary-default` | `#493541` | `#493541` | Primary CTA button background |
+| `color-action-primary-hover` | `--olenna-color-action-primary-hover` | `#33232D` | `#33232D` | Primary CTA hover state |
+| `color-action-primary-text` | `--olenna-color-action-primary-text` | `#FFFFFF` | `#FFFFFF` | Text on primary CTA |
+| `color-action-secondary-default` | `--olenna-color-action-secondary-default`| `#DCC5D8` | `#DCC5D8` | Secondary button fill matching Olenna Web |
+| `color-action-secondary-hover` | `--olenna-color-action-secondary-hover`| `#C5A5BF` | `#C5A5BF` | Secondary button hover matching Olenna Web |
+| `color-action-secondary-text` | `--olenna-color-action-secondary-text`| `#33232D` | `#33232D` | Secondary button text matching Olenna Web |
+| `color-focus-ring` | `--olenna-color-focus-ring` | `#493541` | `#493541` | Accessible focus ring indicator |

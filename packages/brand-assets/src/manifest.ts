@@ -1,6 +1,7 @@
 import { BrandAssetMetadata, BrandClearanceGuidelines, BrandColorDefinition } from './types';
 
 export const OLENNA_BRAND_PALETTE: Record<string, BrandColorDefinition> = {
+  // Master Typography & Semantic Roles (from Olenna Web)
   charcoalPrimary: {
     name: 'Brand Charcoal Primary',
     hex: '#261C22',
@@ -60,6 +61,128 @@ export const OLENNA_BRAND_PALETTE: Record<string, BrandColorDefinition> = {
     hex: '#A66B83',
     role: 'Secondary Interactive & Link Color',
     usageNotes: 'Hover states, accent icons, and promotional callouts.'
+  },
+
+  // Complete Olenna Web Storefront Scales (@theme in globals.css)
+  blush50: {
+    name: 'Brand Blush 50',
+    hex: '#FAF1F4',
+    role: 'Ultra-light blush wash & hero accent',
+    usageNotes: 'Used for delicate section highlights and hero backdrops.'
+  },
+  blush100: {
+    name: 'Brand Blush 100',
+    hex: '#F5E3EA',
+    role: 'Signature blush pink accent',
+    usageNotes: 'Category tags, active pill badges, and highlight cards.'
+  },
+  blush200: {
+    name: 'Brand Blush 200',
+    hex: '#EED5E0',
+    role: 'Medium blush pink tint',
+    usageNotes: 'Subtle container borders and card accents.'
+  },
+  mauve100: {
+    name: 'Brand Mauve 100',
+    hex: '#EFE4EC',
+    role: 'Soft mauve background wash',
+    usageNotes: 'Delicate boutique card backgrounds.'
+  },
+  mauve200: {
+    name: 'Brand Mauve 200',
+    hex: '#DCC5D8',
+    role: 'Signature soft mauve button fill',
+    usageNotes: 'Secondary button background matching Olenna Web.'
+  },
+  mauve400: {
+    name: 'Brand Mauve 400',
+    hex: '#C5A5BF',
+    role: 'Accent soft mauve hover',
+    usageNotes: 'Secondary button hover state.'
+  },
+  ivory50: {
+    name: 'Brand Ivory 50',
+    hex: '#FFFAF7',
+    role: 'Master light page canvas',
+    usageNotes: 'Global background across web storefront and PWA.'
+  },
+  ivory100: {
+    name: 'Brand Ivory 100',
+    hex: '#FAF5F2',
+    role: 'Subtle warm ivory container surface',
+    usageNotes: 'Card container background and drawer surfaces.'
+  },
+  ivory200: {
+    name: 'Brand Ivory 200',
+    hex: '#F5EFEA',
+    role: 'Bespoke ivory border and panel wash',
+    usageNotes: 'Dividers and toast container borders.'
+  },
+  champagne100: {
+    name: 'Brand Champagne 100',
+    hex: '#F2E8DE',
+    role: 'Soft champagne metallic tint',
+    usageNotes: 'VIP tags and delicate badges.'
+  },
+  champagne200: {
+    name: 'Brand Champagne 200',
+    hex: '#DFC7B0',
+    role: 'Champagne highlight & accent border',
+    usageNotes: 'Framing lines and metallic accents.'
+  },
+  champagne400: {
+    name: 'Brand Champagne 400',
+    hex: '#C4A181',
+    role: 'Signature champagne metallic gold',
+    usageNotes: 'Botanical emblem gold trim and star ratings.'
+  },
+  champagne600: {
+    name: 'Brand Champagne 600',
+    hex: '#9E7958',
+    role: 'Deep antique champagne bronze',
+    usageNotes: 'High-contrast champagne text on light badges.'
+  },
+  plum700: {
+    name: 'Brand Plum 700',
+    hex: '#6D4C5E',
+    role: 'Secondary deep plum',
+    usageNotes: 'Auxiliary icons and header hover accents.'
+  },
+  plum800: {
+    name: 'Brand Plum 800',
+    hex: '#593D4E',
+    role: 'Subdued deep plum tone',
+    usageNotes: 'Dark accents and border treatments.'
+  },
+  plum900: {
+    name: 'Brand Plum 900',
+    hex: '#493541',
+    role: 'Signature deep plum brand color',
+    usageNotes: 'Primary button fill, focus rings, and dark logo typography.'
+  },
+  plum950: {
+    name: 'Brand Plum 950',
+    hex: '#33232D',
+    role: 'Deepest midnight plum',
+    usageNotes: 'Primary button hover state.'
+  },
+  plumAnnouncement: {
+    name: 'Brand Announcement Bar Plum',
+    hex: '#6B4B5E',
+    role: 'Storefront announcement banner fill',
+    usageNotes: 'Top marquee banner fill from Olenna Web storefront.'
+  },
+  footerIvory: {
+    name: 'Brand Footer Ivory',
+    hex: '#FAF3F0',
+    role: 'Storefront footer background',
+    usageNotes: 'Warm ivory footer surface from Olenna Web.'
+  },
+  cardTint: {
+    name: 'Brand Card Subtle Tint',
+    hex: '#F6E6ED',
+    role: 'Category and gift card wash',
+    usageNotes: 'Delicate blush wash from CategoryCard and CustomerPwaBanner.'
   }
 };
 
