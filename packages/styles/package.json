@@ -1,6 +1,6 @@
 {
   "name": "@olenna/styles",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "CSS stylesheet, resets, utilities, theme classes, and Tailwind preset for Olenna StudioX",
   "keywords": [
     "olenna",

@@ -192,7 +192,7 @@ describe('@olenna/react Components', () => {
       );
     };
 
-    it('provides theme context and toggles', () => {
+    it('provides theme context and enforces light mode', () => {
       render(
         <ThemeProvider defaultTheme="light">
           <TestConsumer />
@@ -200,7 +200,7 @@ describe('@olenna/react Components', () => {
       );
       expect(screen.getByTestId('theme-val')).toHaveTextContent('light');
       fireEvent.click(screen.getByText(/toggle/i));
-      expect(screen.getByTestId('theme-val')).toHaveTextContent('dark');
+      expect(screen.getByTestId('theme-val')).toHaveTextContent('light');
     });
   });
 

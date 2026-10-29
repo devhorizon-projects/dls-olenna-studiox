@@ -114,11 +114,15 @@ export function buildTokens() {
     css += `  ${t.cssVar}: ${t.value};\n`;
   });
 
-  css += `}\n\n[data-theme="dark"],\n.olenna-theme-dark,\nhtml.dark,\n.dark,\n[data-theme="dark"] body {\n  /* Semantic Overrides (Dark) */\n`;
-  flatSemanticDark.forEach((t) => {
+  css += `}\n\n/* Dark mode disabled — Enforcing light mode tokens across all selectors and color-schemes */\n[data-theme="dark"],\n.olenna-theme-dark,\nhtml.dark,\n.dark,\n[data-theme="dark"] body {\n  /* Enforced Light Mode Semantics */\n`;
+  flatSemanticLight.forEach((t) => {
     css += `  ${t.cssVar}: ${t.value};${t.description ? ` /* ${t.description} */` : ''}\n`;
   });
-  css += `}\n`;
+  css += `}\n\n@media (prefers-color-scheme: dark) {\n  :root,\n  html,\n  body,\n  [data-theme="dark"],\n  .olenna-theme-dark {\n    /* Enforced Light Mode Semantics under dark OS preference */\n`;
+  flatSemanticLight.forEach((t) => {
+    css += `    ${t.cssVar}: ${t.value};\n`;
+  });
+  css += `  }\n}\n`;
 
   fs.writeFileSync(path.join(distDir, 'index.css'), css, 'utf-8');
 
