@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress';
 
+const base = process.env.VITEPRESS_BASE || '/';
+
 export default defineConfig({
-  base: process.env.VITEPRESS_BASE || '/',
+  base,
   title: 'Olenna StudioX',
   description: 'Design Language System for Olenna Luxury Beauty, Fashion & Lifestyle',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: `${base}favicon.ico` }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300..700&display=swap' }]
@@ -27,7 +29,11 @@ export default defineConfig({
           { text: 'Migration Guide (v0.9 → v1.0)', link: '/governance/migration' },
           { text: 'Release Notes', link: '/governance/releases' },
           { text: 'Archived v0.9.0', link: '/archived/v0.9.0/' },
-          { text: 'Component Playground (Storybook)', link: 'http://localhost:6006', target: '_blank' }
+          {
+            text: 'Component Playground (Storybook)',
+            link: '/storybook/',
+            target: '_blank'
+          }
         ]
       }
     ],
