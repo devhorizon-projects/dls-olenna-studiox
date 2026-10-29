@@ -248,242 +248,227 @@
     "color": {
       "text": {
         "primary": {
-          "value": "{color.brand.text.primary}",
+          "value": "#FFFAF7",
           "type": "color",
-          "description": "Primary editorial brand text (#261C22) from Olenna Web"
+          "description": "Primary dark mode text"
         },
         "secondary": {
-          "value": "{color.brand.text.secondary}",
+          "value": "#DFC7B0",
           "type": "color",
-          "description": "Secondary copy and labels (#5C4C56)"
+          "description": "Secondary dark mode text"
         },
         "muted": {
-          "value": "{color.brand.text.muted}",
+          "value": "#A893A1",
           "type": "color",
-          "description": "Subtle timestamps and auxiliary details (#8E7A87)"
+          "description": "Muted dark mode text"
         },
         "inverse": {
-          "value": "{color.brand.ivory.50}",
+          "value": "#211B17",
           "type": "color",
-          "description": "Text on dark or plum backgrounds"
+          "description": "Dark mode inverse text"
         }
       },
       "surface": {
         "page": {
-          "value": "{color.brand.ivory.50}",
+          "value": "#1C1419",
           "type": "color",
-          "description": "Global page canvas"
+          "description": "Dark page canvas"
         },
         "card": {
-          "value": "#FFFFFF",
+          "value": "#271C23",
           "type": "color",
-          "description": "Default card and container background"
+          "description": "Dark mode card surface"
         },
         "elevated": {
-          "value": "#FFFFFF",
+          "value": "#34262F",
           "type": "color",
-          "description": "Floating dialog and dropdown surface"
+          "description": "Dark mode elevated modal surface"
         },
         "subtle": {
-          "value": "{color.brand.ivory.100}",
+          "value": "#21171E",
           "type": "color",
-          "description": "Subtle background wash"
+          "description": "Dark mode subtle background"
         },
         "accent": {
-          "value": "{color.brand.blush.100}",
+          "value": "#3E2B38",
           "type": "color",
-          "description": "Blush highlight surface"
+          "description": "Dark mode accent surface"
         },
         "footer": {
-          "value": "{color.brand.surface.footer}",
+          "value": "#150E13",
           "type": "color",
-          "description": "Warm ivory footer background from Olenna Web (#FAF3F0)"
+          "description": "Dark footer surface (#150E13)"
         },
         "tint": {
-          "value": "{color.brand.surface.tint}",
+          "value": "#2A1C25",
           "type": "color",
-          "description": "Subtle blush category and promo card wash from Olenna Web (#F6E6ED)"
+          "description": "Dark delicate card tint (#2A1C25)"
         }
       },
       "border": {
         "default": {
-          "value": "rgba(73, 53, 65, 0.12)",
+          "value": "rgba(223, 199, 176, 0.18)",
           "type": "color",
-          "description": "Standard border with subtle plum tint matching Olenna Web"
+          "description": "Dark mode visible border with subtle champagne luminescence"
         },
         "strong": {
-          "value": "rgba(73, 53, 65, 0.25)",
+          "value": "rgba(223, 199, 176, 0.35)",
           "type": "color",
-          "description": "High contrast plum border"
+          "description": "Dark mode strong border"
         },
         "subtle": {
-          "value": "rgba(73, 53, 65, 0.06)",
+          "value": "rgba(223, 199, 176, 0.10)",
           "type": "color",
-          "description": "Subtle table row and list divider"
+          "description": "Dark mode subtle divider"
         },
         "accent": {
-          "value": "{color.brand.champagne.200}",
+          "value": "{color.brand.champagne.400}",
           "type": "color",
-          "description": "Champagne metallic framing border"
+          "description": "Dark mode champagne border"
         }
       },
       "action": {
         "primary": {
           "default": {
-            "value": "{color.brand.plum.900}",
+            "value": "{color.brand.champagne.400}",
             "type": "color",
-            "description": "Primary action button fill (#493541)"
+            "description": "Primary action button in dark mode"
           },
           "hover": {
-            "value": "{color.brand.plum.950}",
-            "type": "color",
-            "description": "Primary action button hover (#33232D)"
+            "value": "{color.brand.champagne.200}",
+            "type": "color"
           },
           "active": {
-            "value": "{color.brand.plum.950}",
-            "type": "color",
-            "description": "Primary action button pressed (#33232D)"
+            "value": "#FFFAF7",
+            "type": "color"
           },
           "text": {
-            "value": "#FFFFFF",
-            "type": "color",
-            "description": "Primary action button text"
+            "value": "#211B17",
+            "type": "color"
           }
         },
         "secondary": {
           "default": {
-            "value": "{color.brand.mauve.200}",
+            "value": "rgba(220, 197, 216, 0.18)",
             "type": "color",
-            "description": "Secondary button fill (#DCC5D8) matching Olenna Web"
+            "description": "Secondary action button in dark mode"
           },
           "hover": {
-            "value": "{color.brand.mauve.400}",
-            "type": "color",
-            "description": "Secondary button hover (#C5A5BF)"
+            "value": "rgba(220, 197, 216, 0.30)",
+            "type": "color"
           },
           "text": {
-            "value": "{color.brand.plum.950}",
-            "type": "color",
-            "description": "Secondary button text (#33232D)"
+            "value": "#FFFAF7",
+            "type": "color"
           }
         },
         "tertiary": {
           "hover": {
-            "value": "rgba(73, 53, 65, 0.05)",
-            "type": "color",
-            "description": "Ghost button hover background"
+            "value": "#34262F",
+            "type": "color"
           }
         },
         "destructive": {
           "default": {
-            "value": "{color.feedback.danger.600}",
-            "type": "color",
-            "description": "Destructive action fill"
+            "value": "{color.feedback.danger.500}",
+            "type": "color"
           },
           "hover": {
-            "value": "{color.feedback.danger.700}",
-            "type": "color",
-            "description": "Destructive action hover"
+            "value": "{color.feedback.danger.600}",
+            "type": "color"
           },
           "text": {
             "value": "#FFFFFF",
-            "type": "color",
-            "description": "Destructive action text"
+            "type": "color"
           }
         }
       },
       "focus": {
         "ring": {
-          "value": "{color.brand.plum.900}",
-          "type": "color",
-          "description": "Visible keyboard focus ring"
+          "value": "{color.brand.champagne.400}",
+          "type": "color"
         }
       },
       "link": {
         "default": {
-          "value": "{color.brand.roseMauve.500}",
-          "type": "color",
-          "description": "Standard inline anchor link"
+          "value": "{color.brand.champagne.200}",
+          "type": "color"
         },
         "hover": {
-          "value": "{color.brand.roseMauve.600}",
-          "type": "color",
-          "description": "Anchor link hover state"
+          "value": "#FFFAF7",
+          "type": "color"
         }
       },
       "status": {
         "success": {
           "surface": {
-            "value": "{color.feedback.success.50}",
+            "value": "#052E16",
             "type": "color"
           },
           "border": {
-            "value": "{color.feedback.success.500}",
+            "value": "{color.feedback.success.600}",
             "type": "color"
           },
           "text": {
-            "value": "{color.feedback.success.700}",
+            "value": "{color.feedback.success.100}",
             "type": "color"
           }
         },
         "warning": {
           "surface": {
-            "value": "{color.feedback.warning.50}",
+            "value": "#3B1B04",
             "type": "color"
           },
           "border": {
-            "value": "{color.feedback.warning.500}",
+            "value": "{color.feedback.warning.600}",
             "type": "color"
           },
           "text": {
-            "value": "{color.feedback.warning.700}",
+            "value": "{color.feedback.warning.100}",
             "type": "color"
           }
         },
         "danger": {
           "surface": {
-            "value": "{color.feedback.danger.50}",
+            "value": "#3C0B0B",
             "type": "color"
           },
           "border": {
-            "value": "{color.feedback.danger.500}",
+            "value": "{color.feedback.danger.600}",
             "type": "color"
           },
           "text": {
-            "value": "{color.feedback.danger.700}",
+            "value": "{color.feedback.danger.100}",
             "type": "color"
           }
         },
         "info": {
           "surface": {
-            "value": "{color.feedback.info.50}",
+            "value": "#082F49",
             "type": "color"
           },
           "border": {
-            "value": "{color.feedback.info.500}",
+            "value": "{color.feedback.info.600}",
             "type": "color"
           },
           "text": {
-            "value": "{color.feedback.info.700}",
+            "value": "{color.feedback.info.100}",
             "type": "color"
           }
         }
       },
       "disabled": {
         "surface": {
-          "value": "{color.neutral.100}",
-          "type": "color",
-          "description": "Disabled button and control background"
+          "value": "#2A1E26",
+          "type": "color"
         },
         "text": {
-          "value": "{color.neutral.400}",
-          "type": "color",
-          "description": "Disabled text color"
+          "value": "#6D4C5E",
+          "type": "color"
         },
         "border": {
-          "value": "{color.neutral.200}",
-          "type": "color",
-          "description": "Disabled control border"
+          "value": "#382932",
+          "type": "color"
         }
       }
     }

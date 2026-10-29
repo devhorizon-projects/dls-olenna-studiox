@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '../utils/cn';
+import { useTheme } from './ThemeProvider';
 
 export interface LogoProps {
   className?: string;
@@ -19,7 +20,7 @@ export interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({
   className,
   variant = 'horizontal',
-  theme = 'light',
+  theme: explicitTheme,
   size = 'md',
   withTagline = false,
   priority = false,
@@ -59,7 +60,8 @@ export const Logo: React.FC<LogoProps> = ({
     }
   };
 
-  const isDark = theme === 'dark';
+  const { resolvedTheme } = useTheme();
+  const isDark = (explicitTheme ?? resolvedTheme) === 'dark';
 
   const assetSources = {
     horizontal: isDark ? '/images/logo/olenna-horizontal-dark.webp' : '/images/logo/olenna-horizontal.webp',

@@ -3,6 +3,7 @@ export * from './utils/cn';
 
 // Foundations
 export * from './foundations/ThemeProvider';
+export * from './foundations/ThemeToggle';
 export * from './foundations/Logo';
 export * from './foundations/Text';
 export * from './foundations/Heading';

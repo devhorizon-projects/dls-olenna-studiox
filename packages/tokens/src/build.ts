@@ -114,12 +114,12 @@ export function buildTokens() {
     css += `  ${t.cssVar}: ${t.value};\n`;
   });
 
-  css += `}\n\n/* Dark mode disabled — Enforcing light mode tokens across all selectors and color-schemes */\n[data-theme="dark"],\n.olenna-theme-dark,\nhtml.dark,\n.dark,\n[data-theme="dark"] body {\n  /* Enforced Light Mode Semantics */\n`;
-  flatSemanticLight.forEach((t) => {
+  css += `}\n\n/* Dark Mode Semantics */\n[data-theme="dark"],\n.olenna-theme-dark,\nhtml.dark,\n.dark,\n[data-theme="dark"] body {\n  /* Authentic Olenna StudioX Dark Theme */\n`;
+  flatSemanticDark.forEach((t) => {
     css += `  ${t.cssVar}: ${t.value};${t.description ? ` /* ${t.description} */` : ''}\n`;
   });
-  css += `}\n\n@media (prefers-color-scheme: dark) {\n  :root,\n  html,\n  body,\n  [data-theme="dark"],\n  .olenna-theme-dark {\n    /* Enforced Light Mode Semantics under dark OS preference */\n`;
-  flatSemanticLight.forEach((t) => {
+  css += `}\n\n@media (prefers-color-scheme: dark) {\n  :root:not([data-theme="light"]),\n  html:not([data-theme="light"]),\n  body:not([data-theme="light"]) {\n    /* Default to Dark Mode only when OS prefers dark and theme is not explicitly set to light */\n`;
+  flatSemanticDark.forEach((t) => {
     css += `    ${t.cssVar}: ${t.value};\n`;
   });
   css += `  }\n}\n`;
